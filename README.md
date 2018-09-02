@@ -8,6 +8,9 @@ Create sqlite db with 4 tables using vagrant machine initialisation on ubuntu
     cd sqlite-using-vagrant
     ```
 - Start Vagrant machines
+  ```sh
+    vagrant up 
+    ```
 - Use SSH to go inside vagrant machine 
     ```sh
     vagrant ssh server1 
